@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "target": "es6"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": false,
+    "useBabel": true,
+    "useCache": true,
+    "cacheDirectory": "build/config/.atl-cache/"
+  }
+}

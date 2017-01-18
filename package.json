@@ -1,0 +1,33 @@
+{
+  "name": "@chrisaguilar/ts-template-generator",
+  "version": "0.0.1",
+  "description": "A personal TS+Webpack+React template",
+  "keywords": [
+    "typescript",
+    "ts",
+    "webpack",
+    "react",
+    "scss",
+    "template",
+    "generator"
+  ],
+  "homepage": "https://github.com/chrisaguilar/ts-template-generator",
+  "bugs": {
+    "url": "https://github.com/chrisaguilar/ts-template-generator/issues",
+    "email": "christopher.m.aguilar@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Christopher Aguilar <christopher.m.aguilar@gmail.com> (https://github.com/chrisaguilar)",
+  "main": "index.js",
+  "bin": {
+    "tstemplate-gen": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisaguilar/ts-template-generator.git"
+  },
+  "engines": {
+    "node": ">=7.4.0"
+  },
+  "preferGlobal": true
+}
