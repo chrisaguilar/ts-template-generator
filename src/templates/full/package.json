@@ -2,19 +2,6 @@
   "name": "template",
   "version": "0.0.1",
   "description": "A complete TypeScript template",
-  "keywords": [],
-  "homepage": "",
-  "bugs": {
-    "url": "",
-    "email": ""
-  },
-  "license": "",
-  "author": "",
-  "main": "index.js",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
   "scripts": {
     "build:all": "yarn build:config && yarn build:client && yarn build:server",
     "build:server": "webpack --colors --config build/config/webpack.server.config",
@@ -30,6 +17,22 @@
     "prestart": "export NODE_ENV=production && yarn build:all",
     "start": "NODE_ENV=production node build/server",
     "test": "yarn karma && yarn mocha"
+  },
+  "keywords": [],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "license": "",
+  "author": "",
+  "main": "index.js",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=7.4.0"
   },
   "devDependencies": {
     "@types/body-parser": "^0.0.33",

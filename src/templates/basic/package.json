@@ -2,6 +2,11 @@
   "name": "template",
   "version": "0.0.1",
   "description": "A basic TypeScript template",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lint": "tslint --project tsconfig.json"
+  },
   "keywords": [],
   "homepage": "",
   "bugs": {
@@ -14,6 +19,9 @@
   "repository": {
     "type": "",
     "url": ""
+  },
+  "engines": {
+    "node": ">=7.4.0"
   },
   "devDependencies": {
     "@types/node": "^7.0.4",
