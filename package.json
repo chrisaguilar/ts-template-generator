@@ -2,6 +2,11 @@
   "name": "@chrisaguilar/ts-template-generator",
   "version": "0.0.5",
   "description": "A personal TS+Webpack+React template",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lint": "tslint --project tsconfig.json"
+  },
   "keywords": [
     "typescript",
     "ts",
@@ -20,7 +25,7 @@
   "author": "Christopher Aguilar <christopher.m.aguilar@gmail.com> (https://github.com/chrisaguilar)",
   "main": "index.js",
   "bin": {
-    "tstemplate-gen": "index.js"
+    "tstg": "index.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +34,16 @@
   "engines": {
     "node": ">=7.4.0"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^7.0.4",
+    "tslint": "^4.4.2",
+    "tslint-eslint-rules": "^3.2.3",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "cpr": "^2.0.2",
+    "minimist": "^1.2.0"
+  }
 }
