@@ -9,17 +9,38 @@ manually, so I wrote a small script to do it for me with a single command.
 
 ### Installation
 
-  `$ npm install -g @chrisaguilar/ts-template-generator`
+`$ npm install -g @chrisaguilar/ts-template-generator`
 
-  OR
+OR
 
-  `$ yarn global add @chrisaguilar/ts-template-generator`
+`$ yarn global add @chrisaguilar/ts-template-generator`
 
 ### Usage
 
-  `$ tstemplate-gen <dirname>`
+```
+$ tstg <template> <dirname>
 
-  This copies the template to `<dirname>`
+-h, --help      Print this screen
+-v, --version   Print the version number
+-b, --basic     Use the basic template
+-f, --full      Use the full template
+```
+
+### Examples
+
+```
+$ tstg -b someDir           Puts the basic template in someDir
+$ tstg --full anotherDir    Puts the full template in anotherDir
+```
+
+### Basic Template vs Full Template
+
+**Basic**: provides a bare-bones TypeScript template that's useful for quickly
+       getting a basic TypeScript project going, without much setup or extra
+       packages, compared to the full template.
+
+**Full**: is a full-stack TypeScript setup that uses hot reloading on both the
+      client and the server for very rapid development.
 
 ### License
 
