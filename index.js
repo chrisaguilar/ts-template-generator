@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-module.exports = require('./lib').default();
+module.exports = require('./dist').default();
