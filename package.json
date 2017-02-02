@@ -5,8 +5,7 @@
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "lint": "tslint --project tsconfig.json",
-    "prepublish": "yarn lint && yarn tsc"
+    "lint": "tslint --project tsconfig.json"
   },
   "keywords": [
     "typescript",
