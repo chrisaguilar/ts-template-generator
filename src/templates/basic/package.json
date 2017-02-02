@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "description": "A basic TypeScript template",
+  "keywords": [],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "license": "",
+  "author": "",
+  "main": "index.js",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.4",
+    "tslint": "^4.4.2",
+    "tslint-eslint-rules": "^3.2.3",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {}
+}

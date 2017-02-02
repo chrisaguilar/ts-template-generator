@@ -1,8 +1,20 @@
 {
   "name": "template",
-  "version": "1.0.0",
-  "main": "",
-  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A complete TypeScript template",
+  "keywords": [],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "license": "",
+  "author": "",
+  "main": "index.js",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
   "scripts": {
     "build:all": "yarn build:config && yarn build:client && yarn build:server",
     "build:server": "webpack --colors --config build/config/webpack.server.config",
