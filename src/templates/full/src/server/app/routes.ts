@@ -16,4 +16,4 @@ router.use('/blahblah', blahblahRoutes);
 
 */
 
-export { router }
+export default router;

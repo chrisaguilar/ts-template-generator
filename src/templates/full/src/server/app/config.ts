@@ -1,9 +1,9 @@
+import webpackConfig from 'config/webpack';
 import * as express from 'express';
 import { resolve } from 'path';
 import * as webpack from 'webpack';
-import config from '../../config/webpack.client.config';
 
-const compiler = webpack(config as any);
+const compiler = webpack(webpackConfig as any);
 const p = process.env.NODE_ENV === 'production';
 
 const router = express.Router();
@@ -21,16 +21,15 @@ format as what's already here, aka `require(module)[.method()?][(options?)]`.
 Refer to each module's documentation to figure out how to configure each module.
 
 */
-router.use([
+const appConfig = [
   require('morgan')('dev'),
   require('compression')(),
   require('helmet')(),
   require('body-parser').json()
-]);
+];
 
 if (!p)
-  // HMR Configuration for client
-  router.use([
+  appConfig.push(
     require('webpack-dev-middleware')(compiler, {
       noInfo: true,
       publicPath: '/'
@@ -38,9 +37,10 @@ if (!p)
     require('webpack-hot-middleware')(compiler, {
       noInfo: true
     })
-  ]);
-else
-  // Serve all files from <rootDir>/build on '/'
-  router.use('/', express.static(resolve('build/client')));
+  );
+router.use(appConfig);
 
-export { router };
+if (p)
+  router.use('/', express.static(resolve('dist/client')));
+
+export default router;
