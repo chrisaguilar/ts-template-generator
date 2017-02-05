@@ -1,0 +1,6 @@
+{
+  "watch": "src/server",
+  "exec": "yarn serve",
+  "ext": "ts",
+  "ignore": "*.test.ts"
+}
