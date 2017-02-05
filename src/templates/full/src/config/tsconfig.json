@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "listEmittedFiles": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es6"
-  }
-}
