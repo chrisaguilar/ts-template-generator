@@ -1,24 +1,22 @@
 {
   "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
     "jsx": "react",
+    "listEmittedFiles": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": false,
     "noImplicitThis": true,
+    "outDir": "dist/",
+    "paths": {
+      "config/*": [
+        "src/config/*"
+      ]
+    },
+    "sourceMap": true,
     "target": "es6"
-  },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
-  "awesomeTypescriptLoaderOptions": {
-    "transpileOnly": false,
-    "useBabel": true,
-    "useCache": true,
-    "cacheDirectory": "build/config/.atl-cache/"
   }
 }
