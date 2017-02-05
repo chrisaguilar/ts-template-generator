@@ -1,0 +1,21 @@
+{
+  "transform": {
+    ".(ts|tsx)": "ts-jest/preprocessor"
+  },
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "testResultsProcessor": "ts-jest/coverageprocessor",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ],
+  "moduleNameMapper": {
+    "\\.(s[ca]|c)ss$": "identity-obj-proxy"
+  },
+  "moduleDirectories": [
+    "node_modules",
+    "."
+  ],
+  "notify": true,
+  "verbose": false
+}
