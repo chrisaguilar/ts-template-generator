@@ -7,7 +7,7 @@
     "dev": "nodemon --config src/config/nodemon.json",
     "lint": "tslint --project tsconfig.json",
     "serve": "ts-node -r tsconfig-paths/register src/server",
-    "start": "NODE_ENV=production yarn build && yarn serve",
+    "start": "export NODE_ENV=production && yarn build && yarn serve",
     "test": "jest -c src/config/jest.json --no-cache"
   },
   "keywords": [],
