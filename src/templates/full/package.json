@@ -4,6 +4,7 @@
   "description": "A full TypeScript template",
   "scripts": {
     "build": "ts-node node_modules/.bin/webpack --config src/config/webpack",
+    "cleanse": "rimraf dist/ .awcache/",
     "dev": "nodemon --config src/config/nodemon.json",
     "lint": "tslint --project tsconfig.json",
     "serve": "ts-node -r tsconfig-paths/register src/server",
