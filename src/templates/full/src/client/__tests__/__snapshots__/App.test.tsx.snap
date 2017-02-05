@@ -1,0 +1,16 @@
+exports[`<App /> renders correctly 1`] = `
+<div
+  className="main">
+  <div
+    className="text">
+    <h1>
+      Hello, World!
+    </h1>
+    <div>
+      <h3>
+        how are you?
+      </h3>
+    </div>
+  </div>
+</div>
+`;

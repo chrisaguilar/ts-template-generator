@@ -1,0 +1,7 @@
+exports[`<Main message={string} /> renders correctly 1`] = `
+<div>
+  <h3>
+    
+  </h3>
+</div>
+`;
