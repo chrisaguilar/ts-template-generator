@@ -1,6 +1,6 @@
 {
   "name": "@chrisaguilar/ts-template-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A personal TS+Webpack+React template",
   "scripts": {
     "tsc": "tsc",
