@@ -11,7 +11,7 @@ export default function generate(): void {
     case 'f':
       return full(arg[ 1 ]);
     case 'v':
-      return console.log('v1.1.2');
+      return console.log(require('../package.json').version);
     case 'h':
       return console.log(help);
     default:
