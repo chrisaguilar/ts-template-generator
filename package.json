@@ -3,10 +3,7 @@
   "version": "1.2.0",
   "description": "A personal TS+Webpack+React template",
   "scripts": {
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "lint": "tslint --project tsconfig.json",
-    "prepublish": "yarn lint && yarn tsc"
+    "lint": "tslint --project tsconfig.json"
   },
   "keywords": [
     "typescript",
@@ -40,11 +37,12 @@
     "@types/minimist": "^1.2.0",
     "@types/node": "^7.0.4",
     "tslint": "^4.4.2",
-    "tslint-eslint-rules": "^3.2.3",
-    "typescript": "^2.1.5"
+    "tslint-eslint-rules": "^3.2.3"
   },
   "dependencies": {
     "cpr": "^2.0.2",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.5"
   }
 }

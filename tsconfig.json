@@ -2,21 +2,12 @@
   "compilerOptions": {
     "alwaysStrict": true,
     "forceConsistentCasingInFileNames": true,
-    "listEmittedFiles": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitReturns": false,
     "noImplicitThis": true,
-    "outDir": "dist/",
     "sourceMap": false,
     "target": "es6"
-  },
-  "include": [
-    "src/*.ts"
-  ],
-  "exclude": [
-    "src/templates/**/*",
-    "src/*_test.ts"
-  ]
+  }
 }
