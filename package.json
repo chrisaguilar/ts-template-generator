@@ -1,6 +1,6 @@
 {
   "name": "@chrisaguilar/ts-template-generator",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "A personal TS+Webpack+React template",
   "scripts": {
     "lint": "tslint --project tsconfig.json"
