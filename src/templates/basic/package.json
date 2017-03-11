@@ -24,9 +24,9 @@
     "node": ">=7.4.0"
   },
   "devDependencies": {
+    "@chrisaguilar/tslint-config": "^0.0.3",
     "@types/node": "^7.0.5",
     "tslint": "^4.4.2",
-    "tslint-eslint-rules": "^3.3.0",
     "typescript": "^2.1.5"
   },
   "dependencies": {}

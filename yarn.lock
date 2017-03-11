@@ -2,13 +2,23 @@
 # yarn lockfile v1
 
 
+"@chrisaguilar/tslint-config@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@chrisaguilar/tslint-config/-/tslint-config-0.0.3.tgz#633f659eff31b1b9fb06005ba62679661ced18cc"
+  dependencies:
+    tslint "^4.5.1"
+    tslint-eslint-rules "^3.4.0"
+    tslint-microsoft-contrib "^4.0.0"
+    tslint-react "^2.4.0"
+    typescript "^2.2.1"
+
 "@types/minimist@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
 
 "@types/node@^7.0.4":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.8.tgz#25e4dd804b630c916ae671233e6d71f6ce18124a"
 
 ansi-align@^1.1.0:
   version "1.1.0"
@@ -340,8 +350,8 @@ lru-cache@^4.0.0:
     yallist "^2.0.0"
 
 make-error@^1.1.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.2.2.tgz#e4e270e474f642cca20fa126fe441163957832ef"
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.2.3.tgz#6c4402df732e0977ac6faf754a5074b3d2b1d19d"
 
 "minimatch@2 || 3", minimatch@^3.0.2:
   version "3.0.3"
@@ -565,13 +575,21 @@ tsconfig@^5.0.2:
     strip-bom "^2.0.0"
     strip-json-comments "^2.0.0"
 
-tslint-eslint-rules@^3.2.3:
+tslint-eslint-rules@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-3.4.0.tgz#694e988121e48168bdb7879a3cc3c9f90b90a1f2"
   dependencies:
     doctrine "^0.7.2"
 
-tslint@^4.4.2:
+tslint-microsoft-contrib@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-4.0.0.tgz#7e00a56c1417251d3f91a880efcc43361a69fb2a"
+
+tslint-react@^2.4.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-2.5.0.tgz#94cd6143f6ae825c47f242c5146fc89caeadeae2"
+
+tslint@^4.4.2, tslint@^4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-4.5.1.tgz#05356871bef23a434906734006fc188336ba824b"
   dependencies:
@@ -589,7 +607,7 @@ tsutils@^1.1.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-1.2.2.tgz#7e165c601367b9f89200b97ff47d9e38d1a6e4c8"
 
-typescript@^2.1.5:
+typescript@^2.1.5, typescript@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.1.tgz#4862b662b988a4c8ff691cc7969622d24db76ae9"
 

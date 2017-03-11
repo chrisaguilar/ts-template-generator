@@ -34,10 +34,10 @@
   },
   "preferGlobal": true,
   "devDependencies": {
+    "@chrisaguilar/tslint-config": "^0.0.3",
     "@types/minimist": "^1.2.0",
     "@types/node": "^7.0.4",
-    "tslint": "^4.4.2",
-    "tslint-eslint-rules": "^3.2.3"
+    "tslint": "^4.4.2"
   },
   "dependencies": {
     "cpr": "^2.0.2",
