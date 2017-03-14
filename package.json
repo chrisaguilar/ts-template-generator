@@ -34,7 +34,7 @@
   },
   "preferGlobal": true,
   "devDependencies": {
-    "@chrisaguilar/tslint-config": "^0.0.3",
+    "@chrisaguilar/tslint-config": "^0.0.5",
     "@types/minimist": "^1.2.0",
     "@types/node": "^7.0.4",
     "tslint": "^4.4.2"

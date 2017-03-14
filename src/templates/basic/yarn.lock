@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@chrisaguilar/tslint-config@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@chrisaguilar/tslint-config/-/tslint-config-0.0.3.tgz#633f659eff31b1b9fb06005ba62679661ced18cc"
+"@chrisaguilar/tslint-config@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@chrisaguilar/tslint-config/-/tslint-config-0.0.5.tgz#d2fb31ba6e931265baa2401b5f0e1267e49048e2"
   dependencies:
     tslint "^4.5.1"
     tslint-eslint-rules "^3.4.0"
