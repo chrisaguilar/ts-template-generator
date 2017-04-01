@@ -28,7 +28,7 @@
     "node": ">=7.4.0"
   },
   "devDependencies": {
-    "@chrisaguilar/tslint-config": "^0.0.5",
+    "@chrisaguilar/tslint-config": "^0.0.7",
     "@types/enzyme": "^2.7.2",
     "@types/express": "^4.0.35",
     "@types/extract-text-webpack-plugin": "^2.0.0",
